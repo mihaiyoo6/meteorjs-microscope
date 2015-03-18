@@ -1,21 +1,23 @@
-// var postsData = [
-// {
+// var postsData = [{
 // 	title: "Introducing Telescope",
 // 	author: "Sacha Greif",
 // 	url: "http://sachagreif.com/introducing-telescope"
-// },{
-// 	title:"Meteor",
+// }, {
+// 	title: "Meteor",
 // 	author: "Tom Coleman",
-// 	url:"http://meteor.com"
-// },{
-// 	title:'The Meteor Book',
-// 	author:"Tom Coleman",
-// 	url:"http://themetehorbook.com"
+// 	url: "http://meteor.com"
+// }, {
+// 	title: 'The Meteor Book',
+// 	author: "Tom Coleman",
+// 	url: "http://themetehorbook.com"
 // }];
 
 // Template.postsList.helpers({
-//   posts: function() {
-//     return Posts.find({}, {sort:{submitted:-1}});
-//   }
+// 	posts: function() {
+// 		return Posts.find({}, {
+// 			sort: {
+// 				submitted: -1
+// 			}
+// 		});
+// 	}
 // });
-
