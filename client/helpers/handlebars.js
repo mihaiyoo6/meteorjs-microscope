@@ -1,7 +1,7 @@
-Handlebars.registerHelper('pluralize', function(n, thing){
-	if(n === 1){
+Handlebars.registerHelper('pluralize', function(n, thing) {
+	if (n === 1) {
 		return '1 ' + thing;
-	}else{
+	} else {
 		return n + ' ' + thing + 's';
 	}
 });
